@@ -54,7 +54,7 @@ return { --return that is called to init this
       persist_size = true,
       direction = "horizontal" or "vertical" or "window" or "float",
       -- direction = "vertical",
-      close_on_exit = true, -- close the terminal window when the process exits
+      close_on_exit = false, -- close the terminal window when the process exits
       -- shell = vim.o.shell, -- change the default shell
       -- This field is only relevant if direction is set to 'float'
       -- float_opts = {
